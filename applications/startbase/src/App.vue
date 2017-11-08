@@ -1,16 +1,22 @@
 <template>
   <div id="app">
       <h3>{{title}}</h3>
+      <character> </character>
   </div>
 </template>
 
 <script>
-    export default{
+import Character from './components/Characters.vue'
+
+    export default {
         name: 'app',
-        data()  {
+        data() {
             return {
                 title: 'Generate your team'
             }
+        },
+        components: {
+            Character
         }
     }
 </script>

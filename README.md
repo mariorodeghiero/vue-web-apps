@@ -1,5 +1,5 @@
  
- ## Start projetct Vue.js
+ ## Start project Vue.js
  
  1 - npm install vue-cli -g
 
