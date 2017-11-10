@@ -1,22 +1,28 @@
 <template>
   <div id="app">
       <h3>{{title}}</h3>
-      <character> </character>
+      <div class="col-md-12">
+        <Character  v-for="(id, index) in initial_ids" 
+        :id="id"
+        :key="index">
+        </Character>
+      </div>
   </div>
 </template>
 
 <script>
 import Character from './components/Characters.vue'
 
-    export default {
-        name: 'app',
-        data() {
-            return {
-                title: 'Generate your team'
-            }
-        },
-        components: {
-            Character
-        }
+export default {
+  name: 'app',
+  data() {
+    return {
+      title: "Generate your team",
+      initial_ids: [1, 13, 14]
     }
+  },
+  components: {
+    Character
+  }
+}
 </script>
