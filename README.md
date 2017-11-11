@@ -1,12 +1,27 @@
- 
- ## Start project Vue.js
- 
- 1 - npm install vue-cli -g
+# Project Vue.js
 
- 2 - vue init  webpack-simple startbase
+This is my personal project to learn and practice, using the vue.js framework, based on studies in [Udemy course] author "[David Katz]".
 
- 3 - cd startbase
+### Install vue-cli
 
- 4 - npm install
+```sh
+ $ npm install vue-cli -g
 
- 5 - npm run dev
+```
+
+### Start a new project
+
+```sh
+$ vue init  webpack-simple
+$ cd startbase
+$ npm install
+$ npm run dev
+```
+
+[Udemy course]: <https://www.udemy.com/vue-web-apps/>
+[David Katz]: <https://www.udemy.com/user/54cd8dd54e49b/:
+
+  License
+----
+
+MIT
